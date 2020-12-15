@@ -1,0 +1,46 @@
+
+//#pragma once
+
+struct Outline
+{
+
+  float Side(float3 inColor, float2 invSize, float2 uvCoord, float2 side)
+  {
+    float2 uv;
+
+    uv.r = invSize.r * side.r;
+    uv.g = invSize.g * side.g;
+
+    //The UVs must be filtered through this function to be correct;
+    uv.r += ViewportUVToSceneTextureUV(uvCoord,PPI_SceneDepth).r;
+    uv.g += ViewportUVToSceneTextureUV(uvCoord,PPI_SceneDepth).g;
+
+    //SceneTextureLookup is unreal engine code that is called 
+    //when using the texture lookup code
+    //https://www.raywenderlich.com/57-unreal-engine-4-custom-shaders-tutorial#toc-anchor-007
+    float4 diffColor = SceneTextureLookup(uv, PPI_SceneDepth, false);
+
+    inColor.r -=  diffColor.r;
+  
+    return inColor.r;
+  }
+
+  float Outline()
+  {
+    //the inputs are from the custom Node
+    float left   = Side(INColor, InvSize, UVCoord, float2(-1, 0));
+    float right  = Side(INColor, InvSize, UVCoord, float2( 1, 0));
+    float top    = Side(INColor, InvSize, UVCoord, float2( 0, 1));
+    float bottom = Side(INColor, InvSize, UVCoord, float2( 0,-1));
+    
+    float created = right + left + top + bottom;
+
+    return created;
+    
+  }
+
+};
+
+Outline finOutline;
+
+return finOutline.Outline();

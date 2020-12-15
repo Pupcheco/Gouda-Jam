@@ -1,0 +1,2 @@
+C:\Users\SurfacePro_West\Desktop\Gouda-Jam\Gouda_Story_Jam\Intermediate\Build\Win64\UE4Editor\Development\Gouda_Story_Jam\Definitions.Gouda_Story_Jam.h
+C:\Users\SurfacePro_West\Desktop\Gouda-Jam\Gouda_Story_Jam\Source\Gouda_Story_Jam\NowWereC.h
