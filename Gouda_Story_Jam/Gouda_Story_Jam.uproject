@@ -2,5 +2,12 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.25",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Gouda_Story_Jam",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
