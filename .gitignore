@@ -1,8 +1,10 @@
 # Visual Studio 2015 user specific files
 .vs/
-
 Intermediate/
 Saved/
+
+rm --cached Intermediate/
+rm --cached Saved/
 
 # Compiled Object files
 *.slo
