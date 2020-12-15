@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Gouda_Story_Jam",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+    }
+  ],
 	"Plugins": [
 		{
 			"Name": "FMODStudio",
