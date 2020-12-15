@@ -1,6 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+Gouda_Story_Jam\Intermediate/
+Gouda_Story_Jam\Saved/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -72,3 +75,15 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Gouda_Story_Jam/Saved/Logs/Gouda_Story_Jam-backup-2020.12.15-19.55.15.log
+Gouda_Story_Jam/Saved/Config/Windows/Engine.ini
+Gouda_Story_Jam/Saved/Logs/Gouda_Story_Jam.log
+Gouda_Story_Jam/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Gouda_Story_Jam/Saved/Autosaves/PackageRestoreData.json
+Gouda_Story_Jam/Intermediate/CachedAssetRegistry.bin
+Gouda_Story_Jam/Saved/Autosaves/PackageRestoreData.json
+Gouda_Story_Jam/Saved/AutoScreenshot.png
+Gouda_Story_Jam/Saved/Config/CrashReportClient/UE4CC-Windows-DEE17B304368CD34C1EE268FB5F56B81/CrashReportClient.ini
+Gouda_Story_Jam/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Gouda_Story_Jam/Saved/Config/Windows/Engine.ini
+Gouda_Story_Jam/Saved/Logs/Gouda_Story_Jam.log
