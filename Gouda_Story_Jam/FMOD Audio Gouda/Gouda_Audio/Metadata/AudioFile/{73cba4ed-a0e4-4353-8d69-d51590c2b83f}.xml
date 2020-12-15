@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{73cba4ed-a0e4-4353-8d69-d51590c2b83f}">
+		<property name="assetPath">
+			<value>Announcement In A Jail From The Pa System (Close Recording) by felixblume Id-202192.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>66.435520833333328</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e872f561-6d09-4142-bf9d-e1d7fc5e5876}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{70795bc6-3f1e-4691-a2ad-331e23dfb6fa}">
+		<property name="assetPath">
+			<value>Courthouse Lobby Ambience by Tomlija Id-101237.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>43.988166666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e872f561-6d09-4142-bf9d-e1d7fc5e5876}</destination>
+		</relationship>
+	</object>
+</objects>

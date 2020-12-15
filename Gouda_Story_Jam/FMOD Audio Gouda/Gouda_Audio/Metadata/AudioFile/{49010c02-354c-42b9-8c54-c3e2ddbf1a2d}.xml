@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{49010c02-354c-42b9-8c54-c3e2ddbf1a2d}">
+		<property name="assetPath">
+			<value>Police Sirens by chimerical Id-385867.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>19.512879818594104</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e872f561-6d09-4142-bf9d-e1d7fc5e5876}</destination>
+		</relationship>
+	</object>
+</objects>
