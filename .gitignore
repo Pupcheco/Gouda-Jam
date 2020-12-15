@@ -3,6 +3,9 @@
 
 Intermediate/
 Saved/
+rm --cached Intermediate/
+rm --cached Saved/
+
 
 # Compiled Object files
 *.slo

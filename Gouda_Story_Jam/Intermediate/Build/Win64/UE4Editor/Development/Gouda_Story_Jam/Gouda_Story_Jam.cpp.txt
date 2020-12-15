@@ -1,8 +1,0 @@
-C:\Users\SurfacePro_West\Desktop\Gouda-Jam\Gouda_Story_Jam\Intermediate\Build\Win64\UE4Editor\Development\Gouda_Story_Jam\Definitions.Gouda_Story_Jam.h
-C:\Users\SurfacePro_West\Desktop\Gouda-Jam\Gouda_Story_Jam\Source\Gouda_Story_Jam\Gouda_Story_Jam.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
