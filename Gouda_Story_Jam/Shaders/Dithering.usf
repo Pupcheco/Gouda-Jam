@@ -1,0 +1,42 @@
+struct Halftone
+{
+  float3 Blend(float3 col1, float3 col2, float opacity)
+  {
+    float3 blended;
+    blended.r = max(col1.r, col2.r);
+    blended.g = max(col1.g, col2.g);
+    blended.b = max(col1.b, col2.b);
+
+    return (blended * opacity) + (col1 * (1.0f - opacity));
+
+  }
+
+  float  CreatePattern(float2 uvCoord)
+  {
+
+    float sin_ = sin(1.57);
+    float cos_ = cos(1.57);
+
+    float2 tSize = float2(4000., 250.);
+    float2 texUV = uvCoord * tSize - float2(.5,.5);//ViewportUVToSceneTextureUV(uvCoord,PPI_BaseColor );
+
+    float2 center = float2(cos_ * texUV.x - sin_ * texUV.y, cos_ * texUV.x + sin_ * texUV.y) * 50.0;
+
+    return ( sin( center.x ) * sin( center.y ) ) * 4.0;
+  }
+
+  float4 Halftone()
+  {
+    float colorAverage = (Color.r + Color.g + Color.b) / 3.0f;
+
+    float4 colorHalftone = colorAverage * 10.0f - 5.0f + CreatePattern(UVCoord);
+    colorHalftone.a = Color.a;
+
+    return float4(Blend(Color.rgb, colorHalftone.rgb, .05), 1.0f);
+  }
+
+};
+
+Halftone shader;
+
+return shader.Halftone();
