@@ -2,6 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.25",
 	"Category": "",
+<<<<<<< Updated upstream
 	"Description": "",
 	"Modules": [
 		{
@@ -16,4 +17,7 @@
 			"Enabled": true
 		}
 	]
+=======
+	"Description": ""
+>>>>>>> Stashed changes
 }
