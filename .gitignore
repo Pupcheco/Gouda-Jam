@@ -11,7 +11,7 @@ rm --cached Saved/
 *.slo
 *.lo
 *.o
-
+*.obj
 
 # Precompiled Headers
 *.gch
